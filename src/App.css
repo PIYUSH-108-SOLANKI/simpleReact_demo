@@ -1,0 +1,123 @@
+/* Simple reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* Main container */
+.app {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Section headings */
+h3 {
+  color: #555;
+  margin: 20px 0 10px 0;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+/* Mood buttons */
+.mood-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mood-buttons button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.mood-buttons button:hover {
+  background: #2980b9;
+  transform: translateY(-1px);
+}
+
+/* Song list */
+.songs {
+  margin: 30px 0;
+}
+
+.songs h3 {
+  color: #555;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px 15px;
+  margin: 8px 0;
+  background: #f8f9fa;
+  border-radius: 8px;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #d5dbdb;
+}
+
+/* Counter */
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.counter button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #27ae60;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.counter button:hover {
+  background: #229954;
+}
